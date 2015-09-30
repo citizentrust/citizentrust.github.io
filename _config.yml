@@ -1,12 +1,12 @@
 # Site settings
-title: Citizen Trust
+title: CitizenTrust
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Citizen Trust is a data trust set up to regulate a data market with a user-centric model of data sharing. 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://citizentrust.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  citizentrust
 
 # Build settings
 markdown: kramdown

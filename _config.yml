@@ -2,7 +2,7 @@
 title: CitizenTrust
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Citizen Trust is a data trust set up to regulate a data market with a user-centric model of data sharing. 
+  Giving control to individuals of their rights to online privacy, data protection and free speech through research, education, advocacy and the provision of information and advice.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://citizentrust.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb

@@ -1,12 +1,10 @@
 ---
 layout: default
+title: CitizenTrust
 ---
-<div class="home">
 
-CitizenTrust {.page-heading}
-============
 
-Making sense of digital rights
+## Making sense of digital rights
 
 What: To give control to individuals of their rights to online
 **privacy**, **data protection** and **free speech** through research,
@@ -30,9 +28,7 @@ self-defence** tools and practices in an easy to implement package so
 that people can take more control of their digital identity.
 
 Who: **Jonathan Price**
-
 **Nicolo Zingales**
-
 **Pernille Tranberg**
 
 When: Our first project will roll out in November 2015.
@@ -40,11 +36,12 @@ When: Our first project will roll out in November 2015.
 Posts {.page-heading}
 =====
 
--   <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-    [{{ post.title }}]({{%20post.url%20|%20prepend:%20site.baseurl%20}})
+{% for post in site.posts %}
+-  {{ post.date | date: "%b %-d, %Y" }}
+   
+    [{{ post.title }}]({{ post.url | prepend: site.baseurl }})
     --------------------------------------------------------------------
+{% endfor %}
 
-subscribe [via RSS]({{%20)
+subscribe [via RSS]({{ "/feed.xml" | prepend: site.baseurl }})
 
-</div>

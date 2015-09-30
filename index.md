@@ -3,7 +3,6 @@ layout: default
 title: CitizenTrust
 ---
 
-
 ## Making sense of digital rights
 
 What: To give control to individuals of their rights to online
@@ -27,16 +26,14 @@ Our *second project* will bring together a suite of the best **digital
 self-defence** tools and practices in an easy to implement package so
 that people can take more control of their digital identity.
 
-Who: **Jonathan Price**
-**Nicolo Zingales**
-**Pernille Tranberg**
+Who: **Jonathan Price**, **Nicolo Zingales**, **Pernille Tranberg**
 
 When: Our first project will roll out in November 2015.
 
 ### Posts
 
 {% for post in site.posts %}
--  {{ post.date | date: "%b %-d, %Y" }}   
+-  {{ post.date | date: "%b %-d, %Y" }}
     [{{ post.title }}]({{ post.url | prepend: site.baseurl }})
 {% endfor %}
 

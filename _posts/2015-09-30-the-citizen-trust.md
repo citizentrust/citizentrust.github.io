@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Citizen Trust
+title: Welcome to CitizenTrust
 ---
 
-The Citizen Trust is a data trust. A data trust is an organization set up to hold and regulate data on behalf of its users. 
+Today we launched the first draft of the CitizenTrust site. 
